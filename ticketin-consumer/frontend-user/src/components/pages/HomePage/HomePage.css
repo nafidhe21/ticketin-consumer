@@ -1,0 +1,88 @@
+.bannerwrapper {
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.buttonticket {
+  background: #f5167e;
+  display: inline-block;
+  padding: 10px 40px 10px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btnloadmore {
+  background: #fff;
+  border: 1px solid #f5167e;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.textbtnloadmore {
+  padding: 10px 40px 10px 40px;
+  color: #f5167e;
+}
+
+.bannerbtn {
+  background: #fff;
+  border: 1px solid #f5167e;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 40px 10px 40px;
+  margin-left: 35px;
+}
+
+.textbannerbtn {
+  color: #f5167e;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bannertitle {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.bannerdate {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.bannerimg {
+  margin-left: 50px;
+}
+
+@media (max-width: 515px) {
+  .bannertitle {
+    font-size: 20px;
+  }
+
+  .bannertext{
+    margin-bottom: 20px;
+  }
+
+  .bannerdate {
+    font-size: 30px;
+  }
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutimage{
+    width: 430px;
+}
+
+@media (max-width:500px){
+    .aboutimage{
+        width: 350px;
+    }
+    
+}

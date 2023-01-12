@@ -1,0 +1,81 @@
+.containerregister {
+    margin-right: 100px;
+}
+
+.registerdetail {
+    margin-top: 50px;
+}
+
+.leftcol {
+    flex: 0.8;
+    display: block;
+}
+
+.rightcol {
+    margin-left: 20px;
+    flex: 1;
+    margin-top: 30px;
+}
+
+.registerinput {
+    padding: 10px;
+    padding-left: 45px;
+    outline: none;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 2%;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.icon {
+    position: absolute;
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.icback {
+    margin-right: 10px;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+
+.buttonregister {
+    margin-top: 20px;
+    background: #f5167e;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    border-color: #f5167e;
+    width: 100%;
+}
+
+.gologin {
+    margin-top: 30px;
+    padding-left: 34%;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+@media (max-width:986px) {
+    .leftcol {
+        display: none;
+    }
+}

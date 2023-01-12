@@ -1,0 +1,12 @@
+.footer{
+    width: 100%;
+    background: #333335;
+    margin-top: 100px;
+}
+
+.buttonfooter{
+    background: #f5167e;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}

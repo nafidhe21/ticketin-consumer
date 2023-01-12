@@ -1,0 +1,27 @@
+users
+-user_id (auto)
+-username
+-password
+-phoneNumber
+-name
+-email
+-age
+-profilePicture
+
+concert
+-concert_id (auto)
+-corcertName +
+-date
+-desc
+-price per class
+--class 1:
+--class 2:
+
+ticket
+-ticket_id
+-concert_id
+-user_id
+-concertDate
+-typeClass
+-price
+-dateCreated

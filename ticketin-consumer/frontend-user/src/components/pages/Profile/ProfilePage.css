@@ -1,0 +1,49 @@
+.containerprofile {
+  margin-top: 100px;
+}
+.profiledetail {
+  margin-top: 50px;
+}
+.leftcol {
+  flex: 1;
+  display: block;
+}
+.rightcol {
+  flex: 1;
+}
+.profileinput {
+  padding: 10px;
+  padding-left: 50px;
+  outline: none;
+  height: 35px;
+  width: 100%;
+  margin-bottom: 2%;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.icon {
+  position: absolute;
+  width: 25px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.buttonsave {
+  margin-top: 30px;
+  background: #f5167e;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-width:986px) {
+    .leftcol{
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+.imgticket{
+    border-radius: 10px;
+}
+
+.imgwrapper{
+    margin-right: 15px;
+}
+
+.btnviewticket{
+    padding: 10px 40px 10px 40px;
+    background: #F5167E;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.myticketcardcontainer{
+    border-radius: 10px;
+}
+
+.rightcol{
+    display: inline-block;
+}

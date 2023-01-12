@@ -1,0 +1,15 @@
+User
+
+** get
+view user history ticket
+view ticket by ticket_id
+view list concert
+view concert by concert_id
+view user data
+
+** post
+post ticket (pesan ticket)
+regist
+
+** update
+update user profile

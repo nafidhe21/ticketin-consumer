@@ -1,0 +1,30 @@
+.cardimagewrapper{
+    /* background:salmon; */
+    /* height: 300px; */
+}
+
+.imagecard{
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.datetext{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F5167E;
+}
+
+.titlecontent{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.desccontent{
+    font-size: 16px;
+    color: #6D6D6D;
+    font-weight: 200;
+}
+

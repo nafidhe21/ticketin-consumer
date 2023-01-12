@@ -1,0 +1,78 @@
+.containerlogin {
+    margin-right: 50px;
+}
+
+.logindetail {
+    margin-top: 50px;
+}
+
+.leftcol {
+    flex: 0.8;
+    display: block;
+}
+
+.rightcol {
+    margin-left: 20px;
+    flex: 1;
+    margin-top: 30px;
+}
+
+.logininput {
+    padding: 10px;
+    padding-left: 45px;
+    outline: none;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 2%;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.icon {
+    position: absolute;
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.icback {
+    margin-right: 10px;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+.buttonlogin {
+    margin-top: 30px;
+    background: #f5167e;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    border-color: #f5167e;
+    width: 100%;
+}
+
+.goregister {
+    margin-top: 100px;
+    padding-left: 34%;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning {
+    color: red;
+    font-size: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width:986px) {
+    .leftcol {
+        display: none;
+    }
+}
